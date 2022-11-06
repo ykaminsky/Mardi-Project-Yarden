@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #8cbf3f, #9453A6);
+    background-repeat: no-repeat;
+}
+
+.myulcss {
+    font-size: 1.3rem;
+    font-family: 'pattaya';
+}
+
+/*gallery*/
+.containerg {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.myvideo {
+    font-size: 1.7rem;
+    font-family: 'henny penny';
+    text-align: center;
+    margin: auto;
+    text-shadow: 0px 3px 0px #b2a98f,
+        0px 14px 10px rgba(0, 0, 0, 0.15),
+        0px 24px 2px rgba(0, 0, 0, 0.1),
+        0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #8cbf3f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8cbf3f;
+
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    background-color: #8cbf3f;
+    color: white;
+    text-align: center;
+}

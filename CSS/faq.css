@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(#8cbf3f, #9453A6);
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-family: 'henny penny';
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.myulcss {
+    font-size: 1.3rem;
+    font-family: 'Pattaya';
+}
+
+/* accordion*/
+.accordion {
+    background-color: #8cbf3f;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-style: dashed;
+    outline: none;
+    font-size: 25px;
+    transition: 0.4s;
+    font-family: 'henny penny';
+}
+
+.active,
+.accordion:hover {
+    background-color: #8cbf3f;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: #8cbf3f;
+    overflow: hidden;
+    font-size: 15px;
+    font-family: 'roboto';
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #8cbf3f;
+    ;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #8cbf3f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8cbf3f;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    background-color: #8cbf3f;
+    color: white;
+    text-align: center;
+}

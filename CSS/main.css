@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, #8cbf3f, #9453A6);
+}
+
+.intro {
+    font-family: 'henny penny';
+    text-align: center;
+    text-shadow: 0px 3px 0px #b2a98f,
+        0px 14px 10px rgba(0, 0, 0, 0.15),
+        0px 24px 2px rgba(0, 0, 0, 0.1),
+        0px 34px 30px rgba(0, 0, 0, 0.1);
+
+}
+
+
+/* nav*/
+.myulcss {
+    font-size: 1.3rem;
+    font-family: 'Pattaya';
+}
+
+.carousel {
+    border-radius: 30px;
+    overflow: hidden;
+    width: 80%;
+    height: 47vw;
+    align-items: center;
+}
+
+.carousel-caption {
+    width: 80%;
+    height: 55%;
+    left: 0 !important;
+}
+
+
+
+.carouselhead {
+
+    font-size: 2.7rem;
+    font-family: 'henny penny';
+
+}
+
+.carouseltext {
+    font-family: 'Roboto';
+    padding: 20px;
+    color: #f2f2f2;
+    background-color: grey;
+    font-size: 1.2rem;
+}
+
+.morebutton {
+    background-color: #4CAF50;
+    font-family: 'henny penny';
+    border: #333;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    box-shadow: 2px 2px greenyellow;
+}
+
+.morebutton:hover {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 2px 2px;
+}
+
+/* Sponsers */
+.sponsers {
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'henny penny';
+    padding: 20px;
+    margin: 0;
+    box-shadow: 10px 10px 5px #9453A6;
+
+}
+
+.card-title {
+    font-family: 'henny penny';
+    text-align: center;
+    color: #8cbf3f;
+    font-size: 40px;
+}
+
+.card-text {
+    font-family: 'Roboto';
+
+}
+
+.cardimg {
+    width: auto;
+    height: 200px;
+
+}
+
+.head {
+    font-weight: 400;
+    font-family: 'henny penny';
+    font-size: 3rem;
+    box-shadow: 10px 10px 5px #8cbf3f;
+}
+
+.text {
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    line-height: 1.5;
+
+}
+
+.card {
+    box-shadow: 10px 10px 5px grey;
+}
+
+.card-body {
+    background-color: lightgray;
+}
+
+.cardbtn {
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #f2cc0f;
+    border: 2px solid #9453A6;
+    transition-duration: 0.4s;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 55%;
+    text-align: center;
+}
+
+.cardbtn:hover {
+    background-color: #f2cc0f;
+    color: lightgoldenrodyellow;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background-color: #8cbf3f;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #8cbf3f;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    background-color: #8cbf3f;
+    color: white;
+    text-align: center;
+}
+
+/*timer*/
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 0px;
+}
